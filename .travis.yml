@@ -4,7 +4,7 @@ go:
   - 1.11
 
 install:
-  - go get -v -t -d ./...
+  - go get -v -d ./...
   - go get github.com/mattn/goveralls
 
 script:
